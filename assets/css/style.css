@@ -1,0 +1,213 @@
+/* IMPOSTAZIONI GENERALI */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+ol,
+ul {
+  padding-left: 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+table {
+  margin: 1em 0;
+}
+
+/* BODY */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(../img/sfondo.png);
+}
+
+/* HEADER */
+
+header {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 5px 7px 0px #000000;
+  background: rgb(0, 119, 136);
+  background: -moz-linear-gradient(
+    45deg,
+    rgb(0, 119, 136) 0%,
+    rgb(0, 153, 187) 50%,
+    rgb(0, 153, 187) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(0, 119, 136) 0%,
+    rgb(0, 153, 187) 50%,
+    rgb(0, 153, 187) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgb(0, 119, 136) 0%,
+    rgb(0, 153, 187) 50%,
+    rgb(0, 153, 187) 100%
+  );
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu i {
+  color: white;
+}
+
+#logo {
+  width: 60%;
+}
+
+header h3 {
+  color: white;
+}
+
+/* MAIN */
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 5px 7px 0px #000000;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+#nota {
+  color: #b9b4a4d1;
+}
+
+strong {
+  color: #aa2072;
+  font-weight: bold;
+}
+
+main p {
+  padding: 20px;
+  line-height: normal;
+}
+
+main a {
+  font-weight: bold;
+  color: #0099cc;
+}
+
+#video {
+  width: 100%;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.aside_box {
+  background-color: #ddddde;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+}
+
+#news {
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+/* TABELLE */
+
+caption {
+  padding: 5px;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+table {
+  width: 100%;
+  border-bottom: 5px solid #3673b2;
+}
+
+th {
+  border: 0.5px solid white;
+  background-color: #3673b2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+tr td {
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.269);
+  text-align: center;
+  padding: 20px;
+}
+
+/* FORM */
+
+#newsletter p {
+  padding-bottom: 10px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 5px 7px 0px #000000;
+}
+
+aside a {
+  font-weight: bold;
+  color: #0099cc;
+  line-height: normal;
+}
+
+
+
+#correl {
+  text-align: center;
+  font-weight: normal;
+}
+
+/* FOOTER */
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 5px 7px 0px #000000;
+}
